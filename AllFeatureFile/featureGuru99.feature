@@ -7,3 +7,7 @@ Feature: Test Guru 99 application
     Examples: 
       | FirstName | LastName | Phone      | Email              |
       | Harshada  | Barawkar | 1234567675 | harshada@gmail.com |
+
+  Scenario: Validate mailing information
+    When user enter address,city,state,pcode and country
+      | punethaletej | pune | mharashtra | 425405 | INDIA |
