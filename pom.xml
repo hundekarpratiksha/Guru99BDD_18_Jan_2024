@@ -87,8 +87,7 @@
 				<version>3.2.5</version>
 				<configuration>
 					<suiteXmlFiles>
-						<xmlSuiteFile>G:\BDD Framework
-							Eclipse\Guru99BDD1\src\test\resources\abc.xml</xmlSuiteFile>
+						<xmlSuiteFile></xmlSuiteFile>
 					</suiteXmlFiles>
 
 				</configuration>
