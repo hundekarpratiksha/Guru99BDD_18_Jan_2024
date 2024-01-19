@@ -3,4 +3,7 @@
 <testsuite ignored="0" hostname="DESKTOP-RF9SRMM" failures="0" tests="2" name="Default test" time="25.943" errors="0" timestamp="18 Jan 2024 12:27:46 GMT">
   <testcase classname="io.cucumber.testng.AbstractTestNGCucumberTests" name="runScenario" time="24.144"/>
   <testcase classname="io.cucumber.testng.AbstractTestNGCucumberTests" name="runScenario" time="1.192"/>
+<testsuite ignored="0" hostname="DESKTOP-CC2S1RC" failures="0" tests="2" name="Default test" time="14.042" errors="0" timestamp="18 Jan 2024 12:14:02 GMT">
+  <testcase classname="io.cucumber.testng.AbstractTestNGCucumberTests" name="runScenario" time="12.587"/>
+  <testcase classname="io.cucumber.testng.AbstractTestNGCucumberTests" name="runScenario" time="1.001"/>
 </testsuite> <!-- Default test -->
