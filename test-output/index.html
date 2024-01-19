@@ -49,7 +49,8 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\user\AppData\Local\Temp\testng-eclipse-255194782\testng-customsuite.xml</span>
+                    <span>C:\Users\ADMIN\AppData\Local\Temp\testng-eclipse-326341560\testng-customsuite.xml</span>
+                    <span>C:\Users\user\AppData\Local\Temp\testng-eclipse-255194782\testng-customsuite.xml</s
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -102,7 +103,9 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="TestRunner.RunnerTest" class="method navigator-link" hash-for-method="runScenario(&quot;Validate User Information Functionality&quot;, &quot;Test Guru 99 application&quot;)">runScenario("Validate User Information Functionality", "Test Guru 99 application")</a> <!-- method navigator-link -->
+
+                        <a href="#" panel-name="suite-Default_suite" title="TestRunner.RunnerTest" class="method navigator-link" hash-for-method="runScenario(&quot;Validate mailing information&quot;, &quot;Test Guru 99 application&quot;)">runScenario("Validate mailing information", "Test Guru 99 application")</a> <!-- method navig
+                        <a href="#" panel-name="suite-Default_suite" title="TestRunner.RunnerTest" class="method navigator-link" hash-for-method="runScenario(&quot;Validate User Information Functionality&quot;, &quot;Test Guru 99 application&quot;)">runScenario("Validate User Information Functionality", "Test Guru 99 application")</a> <!-- met
                       </span>
                       <br/>
                       <span>
@@ -130,10 +133,17 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
+
+                  <a name="runScenario(&quot;Validate mailing information&quot;, &quot;Test Guru 99 application&quot;)">
+                  </a> <!-- runScenario("Validate mailing information", "Test Guru 99 application") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Validate mailing information", "Test Guru 99 application")</span>
+
                   <a name="runScenario(&quot;Validate User Information Functionality&quot;, &quot;Test Guru 99 application&quot;)">
                   </a> <!-- runScenario("Validate User Information Functionality", "Test Guru 99 application") -->
                   <span class="method-name">runScenario</span>
                   <span class="parameters">("Validate User Information Functionality", "Test Guru 99 application")</span>
+
                   <em>
 (Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
@@ -153,7 +163,11 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
+
+            <span class="header-content">C:\Users\ADMIN\AppData\Local\Temp\testng-eclipse-326341560\testng-customsuite.xml</span>
+
             <span class="header-content">C:\Users\user\AppData\Local\Temp\testng-eclipse-255194782\testng-customsuite.xml</span>
+
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -214,16 +228,28 @@ data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'runScenario')
 data.setCell(0, 2, 'TestRunner.RunnerTest')
+
+data.setCell(0, 3, 24144);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'runScenario')
+data.setCell(1, 2, 'TestRunner.RunnerTest')
+data.setCell(1, 3, 1192);
+=======
 data.setCell(0, 3, 12587);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'runScenario')
 data.setCell(1, 2, 'TestRunner.RunnerTest')
 data.setCell(1, 3, 1001);
+
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
+
+              <span class="suite-total-time">Total running time: 25 seconds</span>
+
               <span class="suite-total-time">Total running time: 13 seconds</span>
+
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -251,11 +277,26 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">TestRunner.RunnerTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
+
+                <span class="method-name">setUpClass(org.testng.TestRunner@4a67b4ec)</span>
+
                 <span class="method-name">setUpClass(org.testng.TestRunner@10bd9df0)</span>
+
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">runScenario("Validate contact information page functionality", "Test Guru 99 application")</span>
+
+                <span class="method-start">570 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Validate mailing information", "Test Guru 99 application")</span>
+                <span class="method-start">24719 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">25914 ms</span>
+
                 <span class="method-start">429 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
@@ -265,6 +306,7 @@ return data;
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
                 <span class="method-start">14023 ms</span>
+
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -8,6 +8,11 @@ Feature: Test Guru 99 application
       | FirstName | LastName | Phone      | Email              |
       | Harshada  | Barawkar | 1234567675 | harshada@gmail.com |
 
+
+  Scenario: Validate mailing information
+    When user enter address,city,state,pcode and country
+      | punethaletej | pune | mharashtra | 425405 | INDIA |
+
   Scenario: Validate User Information Functionality
     When user enter valid Username, Password, ConfirmPassword
       | Username  | Password     | ConfirmPassword |
